@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="styles.css">
+    <form action="index.php" method="post">
+        <label for="username">username:</label><br>
+        <input type="text" id="username" placeholder="spongebob" minlength="7" maxlength="15" required>
+        <input type="submit"><br>
+        <br><br><br>
+        <label for="password">password:</label><br>
+        <input type="password" placeholder="spongebob" minlength="7" maxlength="15" required>
+        <input type="submit"><br>
+        <br><br><br>
+        <label for="email">email:</label><br>
+        <input type="email" id="email" placeholder="SSquarepant">
+
+        <br><input type="phone">phone:</label>
+        <input type="tel" id="phone" placeholder="123-456-7890" pattern="(0-9){3}-(0-9){3}">
+
+        <label for="quantity">quanity:</label>
+        <input type="number" id="quanity" min="0" max="99">
+        <br><input type="reset">
+        <input type="submit"><br>
+        <label for="title">title:</label>
+
+        <label for="Mr.">Mr.:</label>
+        <input type="radio" id="Mr." value="Mr." name="title">
+        <label for="Ms.">Ms.:</label>
+        <input type="radio" id="Ms." value="Ms." name="title">
+        <label for="PhD">PhD.:</label>
+        <input type="radio" id="PhD" value="PhD" name="title"> <br>
+
+        <label for="payment">payment</label>
+        <select id="payment">
+            <option value="Visa">Visa</option>
+            <option value="Mastercard">Mastercard</option>
+            <option value="Giftcard">Giftcard</option>
+</select><br>
+<label for="Subscribe">Subscribe:</label>
+<input type="checkbox" id="Subscribe">
+<label for="Comment">Comment:</label>
+<textarea name="Comment" id="Comment" cols="25" rows="3"></textarea>
+<label for="file">file</label>
+<input type="file">
+<input type="reset"> <br>
+<input type="submit">
+    </form>
+</body>
+
+</html>
